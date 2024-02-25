@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: #1c1c1c;
+    background-color: #fff;
+    justify-content: center;
+    background-image: url("https://blog.storyblocks.com/wp-content/uploads/2022/05/mechanical-animations-1440x790.png");
+    background-size: cover;
+}
+
+.main{
+    width: 400px;
+    height: 600px;
+    padding: 10px 25px 35px 35px;
+    margin-left: -100px;
+    margin-top: 120px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6b6b6b;
+    letter-spacing: .5px;
+    margin: px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.credentials{
+    width: 100%;
+    padding: 2px 5px 0px 5px;
+}
+
+.credentials input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #6b6b6b;
+    padding: 20px 10px 20px 5px;
+    letter-spacing: 1px;
+}
+
+.username{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c2c4c3;
+    transition: .5s ease;
+}
+
+.username:hover{
+    border-bottom: 3px solid #1c1c1c;
+}
+
+.password{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #c2c4c3;
+    transition: .5s ease;
+}
+
+.password:hover{
+    border-bottom: #1c1c1c;
+}
+
+.submit{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    color: #0a0a0a;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    background-image: linear-gradient(to right, #1c1c1c 0%, #29323c 51%, #1c1c1c 100%);
+    background-size: 200%;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #fff;
+    transition: .5s;
+}
+
+.submit:hover{
+    background-position: right;
+}
+
+.link{
+    margin: 10px;
+    text-align: center;
+}
+
+.link a{
+    color: #aaa;
+    font-size: 15px;
+    text-decoration:none ;
+}
